@@ -1,11 +1,15 @@
 {
-  "name": "typescript-homework-module-3",
+  "name": "goit-advancedjs-hw-07",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.1.5"
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
